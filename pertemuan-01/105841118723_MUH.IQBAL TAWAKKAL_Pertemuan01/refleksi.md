@@ -1,5 +1,7 @@
-# 📝 Catatan Refleksi Pribadi
+# 📝 Refleksi Pribadi
 **Oleh:** MUH.IQBAL TAWAKKAL (105841118723)
+
 Melalui seluruh rangkaian praktikum DevOps pada semester ini, saya berharap dapat merekonstruksi pola pikir saya terhadap siklus hidup pengembangan perangkat lunak (Software Development Life Cycle). Selama ini, saya cenderung berorientasi pada pembuatan kode yang dapat berjalan dengan baik di lingkungan lokal atau perangkat pribadi saya, tanpa benar-benar mendalami bagaimana aplikasi tersebut dipublikasikan, dikelola, serta dijaga keamanannya ketika sudah berada pada lingkungan production yang sebenarnya. Saya berharap perkuliahan ini mampu memberikan pemahaman yang menyeluruh, bukan hanya sebatas konsep teoritis, tetapi juga membentuk kebiasaan kerja kolaboratif yang sesuai dengan praktik di dunia industri teknologi.
 
 Pada akhir semester nanti, saya menargetkan untuk menguasai sejumlah kompetensi inti dalam DevOps. Pertama, saya ingin meningkatkan kemampuan penggunaan Git untuk kebutuhan kolaborasi tim yang lebih kompleks, bukan sekadar melakukan commit dan push perubahan. Kedua, saya berambisi untuk memahami dan menerapkan teknologi containerization dengan Docker guna memastikan konsistensi dan standarisasi environment pengembangan. Ketiga, yang menjadi tantangan sekaligus motivasi terbesar bagi saya, adalah mampu merancang serta mengimplementasikan pipeline Continuous Integration dan Continuous Deployment (CI/CD) guna mengotomatisasi proses pengujian hingga distribusi aplikasi. Saya meyakini bahwa penguasaan keterampilan tersebut akan menjadi bekal strategis yang sangat penting dalam mempersiapkan diri menghadapi tuntutan industri di masa depan.
+
