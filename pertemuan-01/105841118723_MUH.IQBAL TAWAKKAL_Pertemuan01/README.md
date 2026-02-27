@@ -12,21 +12,55 @@
 | **Tanggal** | 2026-02-27 |
 | **Mata Kuliah** | DEVOPS AND CI/CD PIPELINES |
 ---
+Siap 👍 saya tambahkan materi agar lebih kaya, lebih akademik, dan tetap nyambung dengan tulisanmu. Kamu bisa langsung ganti bagian itu dengan versi berikut:
+
+---
 
 ## 1. Pemahaman DevOps
 
-**Apa itu DevOps?**
-DevOps (merupakan gabungan dari kata *Development* dan *Operations*) pada dasarnya bukanlah sekadar sekumpulan *tools* atau aplikasi, melainkan sebuah filosofi, budaya, dan serangkaian praktik yang bertujuan untuk menyatukan proses pengembangan aplikasi (*Development*) dan operasional TI (*Operations*). Secara tradisional, kedua tim ini sering kali bekerja dalam "silo" atau terpisah; tim pengembang biasanya fokus pada pembuatan fitur baru secepat mungkin, sementara tim operasional fokus pada stabilitas sistem. Hal ini sering memicu kendala operasional dan memperlambat rilis perangkat lunak. Melalui pendekatan DevOps, dinding pemisah tersebut diruntuhkan. Tim bekerja secara terintegrasi sepanjang siklus hidup aplikasi (siklus *infinity loop*), mulai dari fase perencanaan, penulisan kode, pengujian otomatis, hingga *deployment* dan pemantauan metrik secara berkelanjutan.
+### **Apa itu DevOps?**
 
-**Mengapa DevOps penting dalam industri saat ini?**
-Penerapan DevOps menjadi sangat krusial dalam industri perangkat lunak modern karena tuntutan pasar yang bergerak dengan luar biasa cepat. Perusahaan dituntut untuk dapat merilis fitur baru, menambal celah keamanan (*patching*), dan memperbaiki *bug* dengan kecepatan dan keandalan tinggi. Dengan mengandalkan pilar CALMS (*Culture, Automation, Lean, Measurement, Sharing*), DevOps mengotomatisasi banyak proses repetitif melalui CI/CD pipelines. Hal ini meminimalisir kesalahan manusia (*human error*), mempercepat waktu rilis (*time-to-market*) dari yang tadinya memakan waktu bulanan menjadi harian atau bahkan per jam, serta memungkinkan pemulihan (*recovery*) yang jauh lebih cepat ketika terjadi kegagalan sistem di lingkungan *production*.
+DevOps (gabungan dari kata *Development* dan *Operations*) pada dasarnya bukanlah sekadar sekumpulan *tools* atau aplikasi, melainkan sebuah filosofi, budaya kerja, dan serangkaian praktik yang bertujuan untuk menyatukan proses pengembangan aplikasi (*Development*) dan operasional TI (*Operations*). Secara tradisional, kedua tim ini sering kali bekerja dalam "silo" atau terpisah; tim pengembang biasanya fokus pada pembuatan fitur baru secepat mungkin, sementara tim operasional fokus pada stabilitas sistem dan keamanan infrastruktur. Perbedaan tujuan ini kerap menimbulkan konflik, keterlambatan rilis, serta kesalahan konfigurasi ketika aplikasi dipindahkan ke lingkungan produksi.
 
-**Contoh Perusahaan yang Sukses Menerapkan DevOps:**
-1. **Netflix:** Netflix adalah pionir dalam adopsi DevOps dan *microservices*. Mereka membuat berbagai *open-source tools* untuk mengotomatisasi infrastruktur *cloud* mereka, memungkinkan platform untuk melayani jutaan *streaming* secara bersamaan tanpa gangguan.
-2. **Amazon:** Amazon bertransisi dari arsitektur *monolithic* tradisional ke pendekatan DevOps dan *microservices*, yang memungkinkan para teknisinya untuk melakukan ribuan *deployment* setiap harinya secara otomatis dan aman.
-3. **Etsy:** Di masa lalu, Etsy mengalami kendala karena proses rilis yang lambat dan penuh konflik. Dengan mengadopsi budaya DevOps, Etsy kini dapat melakukan puluhan *deployment* setiap harinya sambil meminimalisir *downtime*.
+Melalui pendekatan DevOps, dinding pemisah tersebut diruntuhkan. Tim bekerja secara kolaboratif dan berbagi tanggung jawab terhadap kualitas aplikasi, mulai dari tahap perencanaan hingga pemeliharaan. DevOps juga mendorong penerapan otomatisasi dalam proses build, testing, dan deployment melalui konsep Continuous Integration (CI) dan Continuous Delivery/Deployment (CD). Dengan demikian, setiap perubahan kode dapat diuji dan dirilis secara lebih cepat, konsisten, dan terkontrol.
+
+Selain itu, DevOps juga menekankan konsep *Infrastructure as Code (IaC)*, yaitu pengelolaan infrastruktur menggunakan kode yang dapat diversioning seperti halnya aplikasi. Pendekatan ini membuat sistem lebih fleksibel, dapat direplikasi, dan mengurangi kesalahan manual dalam konfigurasi server.
 
 ---
+
+### **Mengapa DevOps penting dalam industri saat ini?**
+
+Penerapan DevOps menjadi sangat krusial dalam industri perangkat lunak modern karena tuntutan pasar yang bergerak sangat cepat. Perusahaan harus mampu merilis fitur baru, menambal celah keamanan (*patching*), serta memperbaiki *bug* dengan kecepatan dan keandalan tinggi. Konsumen saat ini mengharapkan pembaruan sistem yang berkelanjutan tanpa mengganggu layanan.
+
+Dengan mengandalkan pilar CALMS (*Culture, Automation, Lean, Measurement, Sharing*), DevOps mengotomatisasi proses yang sebelumnya dilakukan secara manual. Otomatisasi ini meminimalkan kesalahan manusia (*human error*), meningkatkan konsistensi, dan mempercepat waktu rilis (*time-to-market*) dari yang sebelumnya memakan waktu berminggu-minggu atau berbulan-bulan menjadi harian bahkan per jam.
+
+Selain itu, DevOps juga meningkatkan kualitas perangkat lunak melalui praktik *automated testing*, *continuous monitoring*, dan *logging*. Jika terjadi kegagalan sistem di lingkungan produksi, tim dapat dengan cepat mengidentifikasi penyebab masalah dan melakukan pemulihan (*recovery*) secara efisien. Hal ini sangat penting untuk menjaga kepercayaan pengguna dan reputasi perusahaan.
+
+---
+
+### **Perbandingan Pendekatan Tradisional vs DevOps**
+
+| Aspek          | Tradisional     | DevOps                 |
+| -------------- | --------------- | ---------------------- |
+| Struktur Tim   | Terpisah (Silo) | Terintegrasi           |
+| Deployment     | Jarang & Manual | Sering & Otomatis      |
+| Feedback       | Lambat          | Cepat & Real-time      |
+| Monitoring     | Reaktif         | Proaktif               |
+| Tanggung Jawab | Terpisah        | Tanggung jawab bersama |
+
+---
+
+### **Contoh Perusahaan yang Sukses Menerapkan DevOps**
+
+1. **Netflix**
+   Netflix merupakan pionir dalam adopsi DevOps dan arsitektur *microservices*. Mereka mengembangkan berbagai *open-source tools* untuk mengotomatisasi infrastruktur *cloud*, sehingga mampu melayani jutaan pengguna secara bersamaan dengan tingkat ketersediaan sistem yang sangat tinggi.
+
+2. **Amazon**
+   Amazon bertransisi dari arsitektur *monolithic* ke pendekatan DevOps berbasis *microservices*. Dengan otomatisasi penuh pada proses deployment, Amazon dapat melakukan ribuan deployment setiap hari tanpa mengganggu layanan pelanggan.
+
+3. **Etsy**
+   Etsy sebelumnya menghadapi kendala rilis yang lambat dan penuh konflik antar tim. Setelah mengadopsi budaya DevOps, mereka mampu melakukan puluhan deployment setiap hari dengan tingkat *downtime* yang jauh lebih rendah.
+
 
 ## 2. Bukti Instalasi (Screenshots)
 
@@ -50,6 +84,7 @@ Berikut adalah lampiran *screenshot* bukti instalasi *development environment* y
 ![VS Code Extensions](05-vscode-extensions2.png)
 ![VS Code Extensions](05-vscode-extensions3.png)
 ![VS Code Extensions](05-vscode-extensions4.png)
+
 
 
 
