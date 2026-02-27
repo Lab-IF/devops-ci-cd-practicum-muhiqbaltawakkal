@@ -12,7 +12,6 @@
 | **Tanggal** | 2026-02-27 |
 | **Mata Kuliah** | DEVOPS AND CI/CD PIPELINES |
 ---
-Siap 👍 saya tambahkan materi agar lebih kaya, lebih akademik, dan tetap nyambung dengan tulisanmu. Kamu bisa langsung ganti bagian itu dengan versi berikut:
 
 ---
 
@@ -84,3 +83,4 @@ Berikut adalah lampiran *screenshot* bukti instalasi *development environment* y
 ![VS Code Extensions](screenshots/05-vscode-extensions2.png)
 ![VS Code Extensions](screenshots/05-vscode-extensions3.png)
 ![VS Code Extensions](screenshots/05-vscode-extensions4.png)
+
