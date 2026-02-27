@@ -67,23 +67,29 @@ Selain itu, DevOps juga meningkatkan kualitas perangkat lunak melalui praktik *a
 Berikut adalah lampiran *screenshot* bukti instalasi *development environment* yang telah dilakukan:
 
 ### 2.1 Git Version
-![Git Version](01-git-version.png)
+![Git Version](screenshots/01-git-version.png)
+
+![VS Code Extensions](screenshots/05-vscode-extensions1.png)
+![VS Code Extensions](screenshots/05-vscode-extensions2.png)
+![VS Code Extensions](screenshots/05-vscode-extensions3.png)
+![VS Code Extensions](screenshots/05-vscode-extensions4.png)
 
 ### 2.2 Git Config
-![Git Config](02-git-config.png)
+![Git Config](screenshots/02-git-config.png)
 
 ### 2.3 Docker Version
-![Docker Version](03-docker-version.png)
-
+![Docker Version](screenshots/03-docker-version.png)
 ### 2.4 Docker Hello World
-![Docker Hello World](04-docker-hello-world.png)
+
+![Docker Hello World](screenshots/04-docker-hello-world.png)
 
 ### 2.5 VS Code Extensions
 
-![VS Code Extensions](05-vscode-extensions1.png)
-![VS Code Extensions](05-vscode-extensions2.png)
-![VS Code Extensions](05-vscode-extensions3.png)
-![VS Code Extensions](05-vscode-extensions4.png)
+![VS Code Extensions](screenshots/05-vscode-extensions1.png)
+![VS Code Extensions](screenshots/05-vscode-extensions2.png)
+![VS Code Extensions](screenshots/05-vscode-extensions3.png)
+![VS Code Extensions](screenshots/05-vscode-extensions4.png)
+
 
 
 
