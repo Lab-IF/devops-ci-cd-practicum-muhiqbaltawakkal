@@ -144,7 +144,7 @@ version: '3.8': Menentukan versi spesifikasi format Docker Compose yang digunaka
 
 services: Blok ini mendefinisikan kontainer-kontainer (services) yang akan dijalankan. Terdapat tiga service dalam konfigurasi ini:
 
-web (Nginx):
+1. web (Nginx):
 image: nginx:alpine menggunakan image Nginx versi Alpine yang sangat ringan.
 
 ports: - "8080:80" memetakan port 8080 pada komputer host (lokal) ke port 80 di dalam kontainer.
@@ -155,14 +155,14 @@ depends_on: - api memastikan service web menunggu service api berjalan terlebih 
 
 networks menghubungkannya ke jaringan internal praktikum-net.
 
-api (Apache HTTPD):
+2. api (Apache HTTPD):
 image: httpd:alpine menggunakan image Apache HTTP Server versi Alpine.
 
 ports: - "8081:80" memetakan port 8081 host ke port 80 kontainer, sehingga bisa diakses secara terpisah dari service Nginx.
 
 networks menghubungkannya ke jaringan praktikum-net yang sama.
 
-db (PostgreSQL):
+3. db (PostgreSQL):
 image: postgres:15-alpine menggunakan database PostgreSQL versi 15.
 
 environment digunakan untuk mengatur konfigurasi awal database seperti username, password, dan nama database melalui environment variables.
@@ -172,7 +172,6 @@ volumes: - db_data:/var/lib/postgresql/data melakukan mounting menggunakan named
 networks (praktikum-net): Mendefinisikan jaringan lokal buatan tipe bridge. Ini memungkinkan ketiga service (web, api, dan db) saling berkomunikasi menggunakan nama service mereka sebagai nama host (hostname).
 
 volumes (db_data): Mendefinisikan named volume bernama db_data di level root yang akan dikelola langsung oleh Docker untuk kebutuhan persistensi data service database.
-
 ### Output Docker Compose Up
 
 ```
@@ -247,6 +246,7 @@ Solusi: Saya menggunakan perintah docker logs [nama_container] untuk melakukan t
 ---
 
 *Laporan ini dibuat pada Sabtu, 28 Februari 2026*
+
 
 
 
