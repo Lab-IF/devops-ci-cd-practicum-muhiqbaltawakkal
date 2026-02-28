@@ -211,12 +211,11 @@ time="2026-02-25T01:18:04+08:00" level=warning msg="D:\\TUGAS-PRAKTIKUM\\1058411
 | No | Screenshot | Keterangan |
 |----|------------|------------|
 | 1 | ![Container Running](screenshots/01-container-running.png) | Container yang sedang berjalan |
-| 2 | ![App Browser](screenshots/02-nginx-browser.png) | Aplikasi berjalan di browser |
-| 3 | ![Docker Build](screenshots/03-docker-build.png) | Proses docker build |
-| 4 | ![Custom Image](screenshots/04-custom-image.png) | Daftar Docker images |
-| 5 | ![Compose PS](screenshots/05-compose-ps.png) | Container docker compose berjalan |
-| 6 | ![Compose Services](screenshots/06-compose-services.png) | Docker Compose up |
----
+| 2 | ![Docker Images](screenshots/02-docker-images.png) | Daftar Docker images |
+| 3 | ![Dockerfile](screenshots/03-dockerfile-content.png) | Isi file Dockerfile |
+| 4 | ![Docker Build](screenshots/04-docker-build.png) | Proses docker build |
+| 5 | ![App Browser](screenshots/05-app-browser.png) | Aplikasi berjalan di browser |
+| 6 | ![Compose Up](screenshots/06-compose-up.png) | Docker Compose up |---
 
 ## 💭 Refleksi & Kesimpulan
 
@@ -248,5 +247,6 @@ Solusi: Saya menggunakan perintah docker logs [nama_container] untuk melakukan t
 ---
 
 *Laporan ini dibuat pada Sabtu, 28 Februari 2026*
+
 
 
