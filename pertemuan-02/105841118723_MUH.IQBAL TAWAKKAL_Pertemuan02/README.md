@@ -214,8 +214,7 @@ time="2026-02-25T01:18:04+08:00" level=warning msg="D:\\TUGAS-PRAKTIKUM\\1058411
 | 3 | ![Dockerfile](screenshots/03-dockerfile-content.png) | Isi file Dockerfile |
 | 4 | ![Docker Build](screenshots/04-docker-build.png) | Proses docker build |
 | 5 | ![App Browser](screenshots/05-app-browser.png) | Aplikasi berjalan di browser |
-| 6 | ![Compose Up](screenshots/06-compose-up.png) | Docker Compose up |---
-
+| 6 | ![Compose Up](screenshots/06-compose-up.png) | Docker Compose up |
 ## 💭 Refleksi & Kesimpulan
 
 ### Yang Dipelajari
@@ -246,6 +245,7 @@ Solusi: Saya menggunakan perintah docker logs [nama_container] untuk melakukan t
 ---
 
 *Laporan ini dibuat pada Sabtu, 28 Februari 2026*
+
 
 
 
